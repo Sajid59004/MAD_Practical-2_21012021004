@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
         val v:ConstraintLayout?=findViewById(R.id.myConstraintLayout)
         if (v != null){
-            Snackbar.make(v,msg,Snackbar.LENGTH_SHORT)
+            Snackbar.make(v,msg,Snackbar.LENGTH_SHORT).show()
         }
     }
 
